@@ -1,0 +1,704 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/willc/Trust
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52459
+Successfully changed project path to: C:/Users/willc/Trust
+C:/Users/willc/Trust
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24460] Host "[IP] 172.23.48.1 [Port] 0 [Flags] 2 [Guid] 2609133903 [EditorId] 2609133903 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TOJOEJI4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24460] Host "[IP] 172.23.48.1 [Port] 0 [Flags] 2 [Guid] 2609133903 [EditorId] 2609133903 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TOJOEJI4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 15.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/willc/Trust/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8081 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012665 seconds.
+- Loaded All Assemblies, in  0.660 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.436 seconds
+Domain Reload Profiling: 1093ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (235ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.892 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1706ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (817ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.7 KB). Loaded Objects now: 3542.
+Memory consumption went from 114.4 MB to 114.4 MB.
+Total: 4.156000 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.318500 ms MarkObjects: 3.356300 ms  DeleteObjects: 0.164200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3046.455183 seconds.
+  path: Assets/!Birdy/living birds/resources/lb_sparrow.prefab
+  artifactKey: Guid(c42b8d643b928594d8e92b17b63dfe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/resources/lb_sparrow.prefab using Guid(c42b8d643b928594d8e92b17b63dfe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006769474887ebb441e94157e4974f03') in 0.229371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/!Birdy/living birds/resources/lb_crowHQ.prefab
+  artifactKey: Guid(459aeb780b3c43748b5a2bb13e1809c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/resources/lb_crowHQ.prefab using Guid(459aeb780b3c43748b5a2bb13e1809c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69055172c7b2bbd1b1cdaf27c64051f1') in 0.861363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/!Birdy/living birds/resources/lb_chickadeeHQ.prefab
+  artifactKey: Guid(7d394b5ffd1a15943aae17fcdd87bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/resources/lb_chickadeeHQ.prefab using Guid(7d394b5ffd1a15943aae17fcdd87bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea45fcd8c5b2c0450a97c7e2cbccade8') in 0.684253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 167
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/!Birdy/living birds/resources/lb_crow.prefab
+  artifactKey: Guid(3a5320db60c4f694f9724f4273599524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/resources/lb_crow.prefab using Guid(3a5320db60c4f694f9724f4273599524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f6a1f364f871c7e8d46e827d7d8f82') in 0.319153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 381.506909 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(11a8ef2b758884e4dbf56ae98c151832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(11a8ef2b758884e4dbf56ae98c151832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f22fa9f28d7fffe33d8ad906621297') in 0.008819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.229320 seconds.
+  path: Assets/Colors
+  artifactKey: Guid(fe143708514201641a5ec705f0527f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colors using Guid(fe143708514201641a5ec705f0527f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fff716ba79e3b569ae03453d4f03de') in 0.000548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 65.533146 seconds.
+  path: Assets/!Birdy/Materials
+  artifactKey: Guid(2d41b440dc500c542a5d75ebe15c42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/Materials using Guid(2d41b440dc500c542a5d75ebe15c42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d40f90a61f06c8829d79d2c604e8cb8') in 0.000680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.784400 seconds.
+  path: Assets/!Birdy/living birds/models/blueJay.FBX
+  artifactKey: Guid(9e8e96d31d222394087dd09880b9a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/models/blueJay.FBX using Guid(9e8e96d31d222394087dd09880b9a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2784323274ca9231d48045c2e5658f5') in 0.064259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.395760 seconds.
+  path: Assets/!Birdy/living birds/models/cardinal.FBX
+  artifactKey: Guid(f2f7b64dd5c50f8479d6d1610f8537c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/models/cardinal.FBX using Guid(f2f7b64dd5c50f8479d6d1610f8537c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8137df507461a8bbffe6d0687858e62') in 0.027672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 1.287511 seconds.
+  path: Assets/!Birdy/living birds/models/crow.FBX
+  artifactKey: Guid(0646ceebc81f52a4e8a676e94ab46092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/models/crow.FBX using Guid(0646ceebc81f52a4e8a676e94ab46092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ef699b761cedd9c4f5683e3ebee19a') in 0.028865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 320.617272 seconds.
+  path: Assets/!Birdy/Materials/platformMaterial.mat
+  artifactKey: Guid(1088a0d89317e2c49af39ada7a4aa6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/Materials/platformMaterial.mat using Guid(1088a0d89317e2c49af39ada7a4aa6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c878eb5554d0b85a6eeb1ca11e61ba52') in 0.047471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 97.674594 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/blueJayDIffuse.png
+  artifactKey: Guid(f6d44515531016540a2eca4aad3dd89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/blueJayDIffuse.png using Guid(f6d44515531016540a2eca4aad3dd89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6780a30563a9be062a2dc70c828c802') in 0.047621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/crowMaterialHQ.mat
+  artifactKey: Guid(167c8145cdced1d43ba5318a1a0c0738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/crowMaterialHQ.mat using Guid(167c8145cdced1d43ba5318a1a0c0738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494f42e7898d3e5a99845799345ab703') in 0.019639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/crowDiffuse.png
+  artifactKey: Guid(8e5481a3ce647014c8df18fc9532d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/crowDiffuse.png using Guid(8e5481a3ce647014c8df18fc9532d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f28085fea663f48d06857e49be3542') in 0.025784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/chickadeeDiffuse.png
+  artifactKey: Guid(4ae1274fed4285e49a9f2b4b037eb737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/chickadeeDiffuse.png using Guid(4ae1274fed4285e49a9f2b4b037eb737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db779bd07b233ea4485b5c5c765a9e6') in 0.024811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/cardinalDiffuseAlpha.png
+  artifactKey: Guid(fbc2e95e1bc44b64b9fb7199813e4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/cardinalDiffuseAlpha.png using Guid(fbc2e95e1bc44b64b9fb7199813e4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179f8bbe9f785096f342798c773dc6d8') in 0.029166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/cardinalDiffuse.png
+  artifactKey: Guid(b9fd93230730a4148a1857f09a494943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/cardinalDiffuse.png using Guid(b9fd93230730a4148a1857f09a494943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e16b807fd54f51a492bbbb0a406d13') in 0.019737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/robinMaterialHQ.mat
+  artifactKey: Guid(51ca230fc2250074eae1ba2bcc09f070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/robinMaterialHQ.mat using Guid(51ca230fc2250074eae1ba2bcc09f070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31db8c326ad305683728951134fd4532') in 0.021206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/feather.tif
+  artifactKey: Guid(c7cfb4e1631c6184c85cd7f4ef71287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/feather.tif using Guid(c7cfb4e1631c6184c85cd7f4ef71287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede1fd9f1ebc95c45f2cd9a15daaf7ff') in 0.019526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/chickadeeDiffuseAlpha.png
+  artifactKey: Guid(410ef23c4191e0c4fa3dbb054748c4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/chickadeeDiffuseAlpha.png using Guid(410ef23c4191e0c4fa3dbb054748c4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424ca272cf26a672d1e7ed72a2ab412a') in 0.024883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/chickadeeMaterial.mat
+  artifactKey: Guid(9593f1cc3673e8f4e8708e2195bbf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/chickadeeMaterial.mat using Guid(9593f1cc3673e8f4e8708e2195bbf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58181c46b906d5ccd89fd34082fd0762') in 0.016982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/goldFinchMaterial.mat
+  artifactKey: Guid(82f512e5b1f894b47b6c242b59b08687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/goldFinchMaterial.mat using Guid(82f512e5b1f894b47b6c242b59b08687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb3e135e1f8172d8a092b1886792e02') in 0.018708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/sparrowDiffuseAlpha.png
+  artifactKey: Guid(dc65ba23391d05c42800bf1322c4506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/sparrowDiffuseAlpha.png using Guid(dc65ba23391d05c42800bf1322c4506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edce3e7c37a59bb78226cc4c888dee9') in 0.019835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/featherParticle.png
+  artifactKey: Guid(6728690dc6b33c444bfff26af4af55b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/featherParticle.png using Guid(6728690dc6b33c444bfff26af4af55b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7c7fb400bc836cae735373c8f9b9d3') in 0.019678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/crowDiffuseAlpha.png
+  artifactKey: Guid(de2ac8014b8c97c4e87efdf2597c7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/crowDiffuseAlpha.png using Guid(de2ac8014b8c97c4e87efdf2597c7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433da518a5d0b4f010d3b4e5a411e495') in 0.026676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/robinDiffuse.png
+  artifactKey: Guid(9997adc999aa5a6438387a05699f5ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/robinDiffuse.png using Guid(9997adc999aa5a6438387a05699f5ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfc4c05de931866d4254c909425396c') in 0.020917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/goldfinchDiffuseAlpha.png
+  artifactKey: Guid(e952706f1d3bc0749b7065ea3b892d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/goldfinchDiffuseAlpha.png using Guid(e952706f1d3bc0749b7065ea3b892d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ec008abae9b3723749b22bac023b29') in 0.023046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/blueJayMaterial.mat
+  artifactKey: Guid(aad92b912a4794345baee2af2e5ed3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/blueJayMaterial.mat using Guid(aad92b912a4794345baee2af2e5ed3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c54703ffc7b17ccdf3e5610a1edc00') in 0.019733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/sparrowMaterial.mat
+  artifactKey: Guid(f0fc484a5791de64ebaebef058070013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/sparrowMaterial.mat using Guid(f0fc484a5791de64ebaebef058070013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939e52911baa17084b275fe0087b4fd8') in 0.018609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Birdy/living birds/Materials-Textures/featherParticle.mat
+  artifactKey: Guid(f422776abc6222a48ac114ad4eeea0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/living birds/Materials-Textures/featherParticle.mat using Guid(f422776abc6222a48ac114ad4eeea0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3234b604114dd346f8cf5b5d4677a95') in 0.044097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.541 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1360ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (429.0 KB). Loaded Objects now: 3599.
+Memory consumption went from 121.3 MB to 120.9 MB.
+Total: 2.981500 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.389900 ms  DeleteObjects: 0.190500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 366.859128 seconds.
+  path: Assets/SayFeedBack.cs
+  artifactKey: Guid(5ef3d115853ada64a815fa89fe392f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SayFeedBack.cs using Guid(5ef3d115853ada64a815fa89fe392f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7060841c42d71567be0d638dde283b8c') in 0.002985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.423 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.833 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3601.
+Memory consumption went from 120.9 MB to 120.9 MB.
+Total: 3.166500 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.819800 ms  DeleteObjects: 0.054000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.886311 seconds.
+  path: Assets/BirdScripts
+  artifactKey: Guid(39aa4c3ab75ebd747b440004000667f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BirdScripts using Guid(39aa4c3ab75ebd747b440004000667f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a952e2ad8e164363e598b0c1c474fc7d') in 0.001814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.198729 seconds.
+  path: Assets/!Birdy/BirdScripts
+  artifactKey: Guid(0078a591b1f402345b70dd3941538fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Birdy/BirdScripts using Guid(0078a591b1f402345b70dd3941538fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7bc95e21915b739e24890a584a14d1') in 0.000799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.763 seconds
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 26.209 seconds
+Domain Reload Profiling: 33971ms
+	BeginReloadAssembly (538ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (234ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (7130ms)
+		LoadAssemblies (7249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (70ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (26210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (813ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (646ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3604.
+Memory consumption went from 120.9 MB to 120.9 MB.
+Total: 9.645400 ms (FindLiveObjects: 0.659200 ms CreateObjectMapping: 0.129800 ms MarkObjects: 8.665200 ms  DeleteObjects: 0.189000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.453 seconds
+Refreshing native plugins compatible for Editor in 10.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.996 seconds
+Domain Reload Profiling: 4448ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (658ms)
+		LoadAssemblies (915ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (1057ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 10.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3608.
+Memory consumption went from 121.0 MB to 120.9 MB.
+Total: 8.620500 ms (FindLiveObjects: 0.664700 ms CreateObjectMapping: 0.642100 ms MarkObjects: 7.196900 ms  DeleteObjects: 0.113200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
